@@ -15,7 +15,7 @@ class Timer extends React.Component {
     }
 
     componentDidUpdate(){
-      if(this.state.timer==0)  
+      if(this.state.timer===0)  
       clearInterval(this.interval)
     }
 
