@@ -4,7 +4,7 @@ class Audio extends React.Component{
         return(
             <div>
             <audio autoPlay>
-                <source src={"http://codeskulptor-demos.commondatastorage.googleapis.com/GalaxyInvaders/theme_01.mp3"} type={"audio/mpeg"}></source>
+                <source src={"https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"} type={"audio/mpeg"}></source>
             </audio>
             </div>
 
